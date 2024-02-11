@@ -1,0 +1,6 @@
+gravity_grenade_name : 'Gravity grenade'
+
+gravity_grenade_power : 1
+gravity_grenade_model : 10
+gravity_grenade_throw_power : 2
+gravity_grenade_do_dispenser : true

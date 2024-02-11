@@ -1,17 +1,23 @@
 package io.lionpa;
 
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Main extends JavaPlugin {
+    private static FileConfiguration config;
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        config = getConfig();
+        Recipes.init();
+        saveDefaultConfig();
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+
+    }
+    public static FileConfiguration config(){
+        return config;
     }
 }
