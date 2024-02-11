@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="gravityGrenades">
+    <output-path>D:/.Plugins/Servers/GrenadeServer/plugins</output-path>
+    <root id="archive" name="gravityGrenades.jar">
+      <element id="module-output" name="lionpa" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+    </root>
+  </artifact>
+</component>
