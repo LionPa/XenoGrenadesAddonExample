@@ -1,0 +1,4 @@
+name: XenoGrenadesAddonExample
+version: '${project.version}'
+main: io.lionpa.Main
+api-version: '1.20'
