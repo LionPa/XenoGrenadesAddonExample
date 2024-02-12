@@ -8,6 +8,7 @@ import org.bukkit.inventory.ShapedRecipe;
 
 public class Recipes {
     public static void init(){
+        // Adding recipes for grenade
         RecipeManager.addShapedRecipe(
                 new ShapedRecipe(
                         new NamespacedKey("example_of_addon","gravity_grenade_recipe"),

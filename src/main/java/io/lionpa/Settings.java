@@ -3,6 +3,7 @@ package io.lionpa;
 import org.bukkit.configuration.file.FileConfiguration;
 
 public class Settings {
+    // Loading values from yours config
     private static final FileConfiguration c = Main.config();
     public static final String GRAVITY_GRENADE_NAME = c.getString("gravity_grenade_name");
     public static final double GRAVITY_GRENADE_POWER = c.getDouble("gravity_grenade_power");
