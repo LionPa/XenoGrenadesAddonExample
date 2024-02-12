@@ -72,7 +72,7 @@
             <artifactId>Grenade</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>E:/Java/Plugins/XenoGrenadesAddonExample/dependency/Grenade.jar</systemPath>
+            <systemPath>E:/Java/Plugins/XenoGrenadesAddonExample/dependency/XGrenadesAPI.jar</systemPath>
         </dependency>
     </dependencies>
 </project>
