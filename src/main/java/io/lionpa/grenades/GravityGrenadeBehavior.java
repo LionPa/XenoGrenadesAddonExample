@@ -1,5 +1,6 @@
 package io.lionpa.grenades;
 
+import io.lionpa.Grenade;
 import org.bukkit.Location;
 import org.bukkit.Particle;
 import org.bukkit.entity.Entity;
@@ -17,9 +18,10 @@ public class GravityGrenadeBehavior implements GrenadeBehavior{
         });
         location.getWorld().spawnParticle(Particle.CLOUD,location,50,1,0.1,1,0.01f); //Spawning particles
     }
-
     @Override
-    public void fly(Location location, Entity entity) {
-
+    public void fly(Location location, Entity entity) {}
+    @Override
+    public void init(Grenade grenade) {
+        // Add you own options
     }
 }
